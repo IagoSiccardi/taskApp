@@ -1,0 +1,34 @@
+
+.avatar-card {
+    align-items: center;
+    background-color: var(--PrimaryColor);
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin: 20px 0px;
+    padding: 10px;
+    width: 100%;
+
+}
+
+.avatar-card .avatar {
+    
+    border-radius: 50%;
+    border: 4px solid var(--SecondaryColor);
+    overflow: hidden;
+
+}
+
+.avatar-card .avatar img {
+    height: 100px;
+    object-fit: contain;
+    width: 100px;
+}
+
+.avatar-card .desc span{
+    color: var(--SecondaryColor);
+    font-weight: 600;
+    font-size: 1.5rem;
+}
