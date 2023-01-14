@@ -31,6 +31,12 @@
     outline: none;
     padding: 5px 10px;
     width: 100%;
+    transition: .5s;
+}
+
+.task-section .task-form .task-input:focus {
+    border: 2px solid var(--SecondaryColor);
+    transform: scale(1.02);
 }
 
 .task-section .task-form button {

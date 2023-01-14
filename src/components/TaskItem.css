@@ -10,11 +10,12 @@
     
 }
 
-.task-item .title {
+.task-item .title-input {
     font-weight: 500;
     color: black;
     font-size: 1.25rem;
     margin: 0px;
+    border: none;
 }
 
 .task-item .buttons {

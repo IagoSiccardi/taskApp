@@ -16,3 +16,8 @@ body {
     background-color: var(--PrimaryColor);
     font-family: 'Roboto', sans-serif;
 }
+
+a {
+    text-decoration: none;
+    border: none;
+}

@@ -2,7 +2,7 @@ import { useState } from "react";
 
 const useForm = () => {
 
-  const [inputValue, setInputValue] = useState("");
+  const [inputValue, setInputValue] = useState('');
 
   const handleInputChange = ({ target }) => {
     setInputValue(target.value);
